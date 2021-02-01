@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb136ab25d79ffe4cb2076b56ff298b9, type: 3}
+  m_Name: EnemyShootingFast
+  m_EditorClassIdentifier: 
+  nameEnemy: Bob Jenkins
+  classEnum: 0
+  angryCooldown: 10
+  healthEnemy: 20
+  attackRange: 20
+  sightRange: 50
+  territorialRange: 100
+  angryRange: 40
+  rotationDuration: 1
+  movementSpeed: 6
+  angularSpeed: 120
+  acceleration: 30
+  stoppingDistance: 1
+  autoBraking: 0
+  attackDamage: 5
+  timeBetweenAttacks: 3.5
+  shotSpeed: 15

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8428081645798434913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8428081645798434915}
+  - component: {fileID: 8428081645798434912}
+  - component: {fileID: 5627898480833419378}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8428081645798434915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428081645798434913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 515.1161, y: -540.151, z: -859.4335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8428081645798434912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428081645798434913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb0a10eb27a45c890f68e61656b9cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorClearance: {fileID: 0}
+  instantDeathHeight: -100
+  worldSwitchManager: {fileID: 0}
+  objectsSpawnedByPlayer: {fileID: 0}
+  ghostCheckpointParent: {fileID: 0}
+  bulletTransform: {fileID: 0}
+  calculateStamina: {fileID: 0}
+  ghostStruct: {fileID: 0}
+  playerController: {fileID: 0}
+  lightActivatorPillar: {fileID: 0}
+  meteoorrExplode: {fileID: 0}
+  spawnFracturedMeteoorr: {fileID: 0}
+  playerManager: {fileID: 0}
+  playerTransform: {fileID: 0}
+  playerBowParent: {fileID: 0}
+  playerStatus: {fileID: 0}
+  ghostObject: {fileID: 0}
+  movementHandeler: {fileID: 0}
+  hudCanvas: {fileID: 0}
+  gameOverCanvas: {fileID: 0}
+  hudContext: {fileID: 0}
+  cheatDebugController: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  inventoryParent: {fileID: 0}
+  cursorLockState: {fileID: 0}
+  quiverUI: {fileID: 0}
+  bowChargeIndicator: {fileID: 0}
+  inventoryUI: {fileID: 0}
+  bufferTxt: {fileID: 0}
+  sliderTimeLeft: {fileID: 0}
+  inventoryRotateUICanvas: {fileID: 0}
+  sliderStamina: {fileID: 0}
+  aimReticle: {fileID: 0}
+  mainCamera: {fileID: 0}
+  cinemachineFreeLook: {fileID: 0}
+  cinemachineAimCam: {fileID: 0}
+  cinemachineStateDrivenCamera: {fileID: 0}
+  camAnimator: {fileID: 0}
+  lookAtPlayerShoulderLocation: {fileID: 0}
+  respawnManager: {fileID: 0}
+  startLocation: {fileID: 0}
+  enemySpawnParent: {fileID: 0}
+  ghostSpawner: {fileID: 0}
+  ghostSettings: {fileID: 0}
+  hasMoved: 0
+  globalSpiritShaderManager: {fileID: 0}
+--- !u!114 &5627898480833419378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8428081645798434913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c42ea770e1569f64d85f4251d41eabe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

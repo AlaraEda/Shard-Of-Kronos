@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb136ab25d79ffe4cb2076b56ff298b9, type: 3}
+  m_Name: EnemyShootingSlow
+  m_EditorClassIdentifier: 
+  nameEnemy: Jenk Bobins
+  classEnum: 1
+  angryCooldown: 15
+  healthEnemy: 15
+  attackRange: 40
+  sightRange: 70
+  territorialRange: 100
+  angryRange: 50
+  rotationDuration: 2
+  movementSpeed: 9
+  angularSpeed: 60
+  acceleration: 3
+  stoppingDistance: 0
+  autoBraking: 0
+  attackDamage: 10
+  timeBetweenAttacks: 3.5
+  shotSpeed: 15

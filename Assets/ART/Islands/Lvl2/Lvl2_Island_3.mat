@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lvl2_Island_3
+  m_Shader: {fileID: -6465566751694194690, guid: cd4590f7a4097b546b6bd5a2919ba9db, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_35CF0C9F:
+        m_Texture: {fileID: 2800000, guid: 9efddce34810db748b42c5272b029021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_66C0525E:
+        m_Texture: {fileID: 2800000, guid: 40922ed6247041c41bac5d2bece1da37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7318C5A1:
+        m_Texture: {fileID: 2800000, guid: e1323e6ec338aed40a4a382183c3d535, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_86FF57EE:
+        m_Texture: {fileID: 2800000, guid: 4032572772c90b04490e3be836d1b5a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_24A19E73: 0
+    m_Colors: []
+  m_BuildTextureStacks: []

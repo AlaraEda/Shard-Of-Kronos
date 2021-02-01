@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1449012767858141517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449012767858141504}
+  - component: {fileID: 1449012767858141507}
+  m_Layer: 0
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: b1b079d053c3d0c41952dadf32a89ffd, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449012767858141504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449012767858141517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1449012767858141507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449012767858141517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82293402bd3c24944b5d8953ca5e94c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraSettingsModel:
+    sensitivityX: 120
+    invertedX: 0
+    sensitivityY: 1.5
+    invertedY: 1
+    aimCamXDivider: 4
+    aimCamYDivider: 9
+  movementSettingsModel:
+    forwardSpeed: 9
+    characterRotationSmoothDamp: 0.6
+  ghostAndWorldSettingsModel:
+    ghostWaitsAtLastCheckpoint: 1
+    maxCheckpoints: 3
+    ghostDelaySpawn: 2
+    checkpointUIPrefab: {fileID: 707926219102355354, guid: 1d3724a940fb00348a2bdb23719dfd8d, type: 3}
+    checkpointLocationIndicator: {fileID: 8278743018409661982, guid: 32bb1a9fa9739a9499c77b8cfdfb8976, type: 3}
+    spiritWorldTime: 0
+    decreasingRunStamina: 10
+    decreasingAttackStamina: 5
+    decreasingJumpStamina: 5
+    gravityNormal: -9.81
+    gravitySpirit: -5
+    forwardSpeedSpirit: 20
+    ghostBuffer: 1.5
+  bowAndArrowSettingsModel:
+    chargeRate: 80
+    chargeMax: 100
+    cameraOffsetWhenDrawingBow: {x: 1.5, y: 0, z: 0}
+    startAmountArrows: 10000000
+    maxAmountArrows: 2147483647
+    arrowSpeed: 200
+    defaultArrowDamage: 10
+    defaultArrowPrefab: {fileID: 9184689628811359823, guid: ca29bcfb71eeeb0459139900e8317994, type: 3}
+    iceAoEPrefab: {fileID: 9184689628811359823, guid: 50473a5a631c57e418c58c4ae6fc9a0e, type: 3}
+    arrowSpawnParentPrefab: {fileID: 2569947821223381695, guid: c156d2576d347ce4eb8881aadd0a2bef, type: 3}
+    iceAoEArrowActiveTime: 5
+    iceAoEArrowSpeedDivision: 5
+    grappleSpeed: 8
+    grappleGravityModifier: 2
+    extraJumpDistance: 0.5
+  playerHealthSettingsModel:
+    maxPlayerHealth: 100
+    currentPlayerHealth: 100
+  audioSettingsModel:
+    masterVolume: 1
+    musicVolume: 1
+    effectsVolume: 1
+  physicsSettingsModel:
+    jumpForce: 15
+    groundedPullMagnitude: 5
+    mass: 1
+    drag: 9.81
+  puzzleSettings:
+    lightBeamPillarIsCompleted: 0
+    turningPillarIsCompleted: 0
+    rotateDuration: 0.5
+  inventorySettings:
+    maxItemStackSize: 64
+  enemySettingsModel:
+    enemyShootingProjectilePrefab: {fileID: 2144264388457283775, guid: ba78435a2cdb1bc4a959018d532fe88f, type: 3}

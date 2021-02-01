@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46aeedb5ff94f3541967ab08086ff90b, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  dataBase: {fileID: 11400000, guid: d1e31442257e1c644b0277812a029721, type: 2}
+  inventoryList: []
+  saveableList:
+    inventoryListStruct:
+    - id: 1
+      item: {fileID: 11400000, guid: a3721a727efec5043bbe4bf563aa1968, type: 2}
+      amount: 1
+      maxItemsPerStack: 0
+      uiPrefab: {fileID: 1136668174614697496, guid: 0d266a54018099d41a45950c9285ffcd, type: 3}
+      instantiatedUI: {fileID: 0}
+      inventoryUIScript: {fileID: 0}
+    - id: 3
+      item: {fileID: 11400000, guid: e0a1c7244f673744591f0f5e49780dca, type: 2}
+      amount: 2
+      maxItemsPerStack: 0
+      uiPrefab: {fileID: 1136668174614697496, guid: 0d266a54018099d41a45950c9285ffcd, type: 3}
+      instantiatedUI: {fileID: 0}
+      inventoryUIScript: {fileID: 0}
