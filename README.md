@@ -16,9 +16,14 @@ This final build is the result of 14 weeks where 15 different specialized studen
 
 <br>
 
+### The Team
+**Managing Director:** Valentijn Braun <br>
+**The Designers:** Medhi el Bouzidi (Creative Director), Sonny Roovers, Leila Verbeek <br>
+**The Developers:** Luko ten Brink (Lead), Alara Ilhan, Mats de Waard, Okan Emeni, Tahsin Kaya <br>
+**The Artists:** Lars Essen (Lead), Amy Geelhoed, Edwin Leatemia, Stephan Houwaart,Lindsay Groenewold, Jawed Balkhi <br><br>
 
 ### How we did it
-We started this project on 12 oktober 2020 and ended it around 28 januari 2021. This means this project was created and finnished during the Corona Pandemic. Me and a group of 14 other students, all of different disciplinaries, chose to do this Minor: The Game Minor of Hogeschool Rotterdam. We did this by using Discord and creating a hyrarchy within our group. We had 3 teams: The Developer Team, The Artist Team and The Designer Team. Every one of these teams had a lead that they all had to refer to. In turn the leads communicate (with the by us chosen) Project Manager. Who in turn notifies our process to our teachers. <br> <br>
+We started this project on 12 october 2020 and ended it around 28 januari 2021. This means this project was created and finnished during the Corona Pandemic. Me and a group of 14 other students, all of different disciplinaries, chose to do this Minor: The Game Minor of Hogeschool Rotterdam. We did this by using Discord and creating a hierarchy within our group. We had three teams: The Developer Team, The Artist Team and The Designer Team. Every one of these teams has a Lead in something. When problems arose we were expected to ask our leads for guidance. In turn the leads communicated with the Managing Director about the teams progress. Who in turn (together with the Leads) notified our process to our teachers. <br> <br>
 
 ### What about me?
 I first started out as a Developer for this group. I *thought* I already knew the basics of Unity because of my past project: "Anemianiac". I was mistaken. Working on this project was completely different than anything I was every used to. I had to work on it everday from 10 to 5, with a team of four other remarkable programmers. I had to understand their code and modify it while learning knew knowledge about Unity so I could keep up with the rest of the team. <br>
